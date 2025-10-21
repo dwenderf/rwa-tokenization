@@ -1,0 +1,47 @@
+# ==========================================================
+# Hudson Yards Studios Documentation Site (GitHub Pages)
+# ==========================================================
+
+title: "Hudson Yards Studios"
+description: "Film finance reimagined through transparency and tokenized participation."
+baseurl: ""  
+url: "https://hystudios.netlify.app"  
+remote_theme: pages-themes/cayman@v0.2.0 # Use GitHub Pages Cayman theme via remote_theme on Netlify
+
+# Markdown & build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+
+# Site navigation (shown as top nav bar on most Jekyll themes)
+nav:
+  - title: "Home"
+    url: /index.html
+  - title: "Investor Terms"
+    url: /investor-terms.html
+  - title: "Strategic Planning"
+    url: /strategic-planning.html
+
+# SEO and social metadata
+social_links:
+  github: dwenderf
+  linkedin: david-wender
+  email: contact@hudsonyardsstudios.com
+
+# Footer content
+footer:
+  text: "© 2025 Hudson Yards Studios Inc. | All Rights Reserved"
+
+# Branding
+logo: /assets/logo-hys.svg
+show_downloads: false   # hides default Jekyll button
+
+# Optional: custom color palette (for the Cayman theme)
+# You can tweak these later for brand colors
+style:
+  theme_color: "#1A1A1A"
+  accent_color: "#DAA520"
+  background_color: "#F5F5F5"
