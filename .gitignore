@@ -1,0 +1,51 @@
+# ==========================================================
+# Hudson Yards Studios – Git Ignore
+# For Jekyll + Netlify + GitHub Pages
+# ==========================================================
+
+# Jekyll build outputs
+_site/
+public/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby / Bundler
+.bundle/
+vendor/
+Gemfile.lock
+
+# Netlify
+.netlify/
+functions/
+node_modules/
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+Icon?
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# Logs & temp files
+*.log
+*.tmp
+*.swp
+*.bak
+*.orig
+*.rej
+
+# Backup & IDE clutter
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Misc
+.env
+.env.*
