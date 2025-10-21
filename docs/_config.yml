@@ -6,7 +6,7 @@ title: "Hudson Yards Studios"
 description: "Film finance reimagined through transparency and tokenized participation."
 baseurl: "/rwa-tokenization"   # the repository name (required for GitHub Pages under /docs)
 url: "https://dwenderf.github.io"  # your GitHub username or organization domain
-theme: jekyll-theme-cayman     # clean, modern theme; good contrast and readability
+remote_theme: pages-themes/cayman@v0.2.0 # Use GitHub Pages Cayman theme via remote_theme
 
 # Markdown & build settings
 markdown: kramdown
@@ -14,6 +14,7 @@ highlighter: rouge
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 # Site navigation (shown as top nav bar on most Jekyll themes)
 nav:

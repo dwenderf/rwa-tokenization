@@ -40,7 +40,7 @@ This repository (`rwa-tokenization`) contains:
 ## 💬 Contact
 For partnership or investment inquiries:
 
-- **Email:** [contact@hudsonyardsstudios.com](mailto:contact@hudsonyardsstudios.com)  
+- **Email:** [contact@hystudios.com](mailto:contact@hystudios.com)  
 - **GitHub:** [dwenderf](https://github.com/dwenderf)  
 - **LinkedIn:** [David Wender](https://www.linkedin.com/in/david-wender)
 
